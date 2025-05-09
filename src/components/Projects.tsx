@@ -12,7 +12,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
       image:
         "https://www.vidyalayaschoolsoftware.com/webassets/images/school_software_1.png",
-      github: "https://github.com/yourusername/ecommerce",
+      github: "https://github.com/suraj1272/SIMS",
       live: "https://project-demo.com",
     },
     {
