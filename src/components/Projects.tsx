@@ -16,14 +16,14 @@ const Projects = () => {
       live: "https://project-demo.com",
     },
     {
-      title: "Weather Dashboard",
+      title: "Loan Calulator Web Application ",
       description:
-        "Real-time weather application that provides detailed forecasts, interactive maps, and severe weather alerts using multiple weather APIs.",
-      technologies: ["React", "OpenWeather API", "Mapbox", "TailwindCSS"],
+        "Real-time Loan Calculation  application that provides user with the loan Amount in different currency using Exchange APIs.",
+      technologies: ["React", "Exchangerate  API", "TailwindCSS"],
       image:
-        "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg",
-      github: "https://github.com/yourusername/weather-app",
-      live: "https://weather-demo.com",
+        "https://assets-news.housing.com/news/wp-content/uploads/2020/10/05171914/How-to-use-Housing.com-home-loan-calculator-FB-1200x700-compressed.jpg",
+      github: "https://github.com/suraj1272/loan_calulator",
+      live: "https://loan-calulator-black.vercel.app/",
     },
     {
       title: "Task Management System",

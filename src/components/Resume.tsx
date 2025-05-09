@@ -33,15 +33,15 @@ const Resume = () => {
 
   const certifications = [
     {
-      name: "Full Stack Web Development",
-      issuer: "Udemy",
-      date: "2023",
+      name: " MERN Full Stack Web Development",
+      issuer: "Geek For Geeks",
+      date: "2025",
     },
-    {
-      name: "React Native Development",
-      issuer: "Coursera",
-      date: "2023",
-    },
+    // {
+    //   name: "React Native Development",
+    //   issuer: "Coursera",
+    //   date: "2023",
+    // },
   ];
 
   return (
@@ -163,6 +163,9 @@ const Resume = () => {
                 <p className="text-slate-600 dark:text-slate-400">
                   {cert.date}
                 </p>
+                <a href="#" className="text-indigo-600 dark:text-indigo-400">
+                  View Certificate
+                </a>
               </div>
             ))}
           </div>
