@@ -1,8 +1,8 @@
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="py-12 bg-slate-50 dark:bg-slate-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,43 +12,39 @@ const Footer = () => {
               Get In Touch
             </h2>
           </div>
-          
+
           <div className="flex space-x-6 mb-8">
-            <a 
-              href="#" 
+            <a
+              href="https://github.com/suraj1272"
               className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
-              aria-label="Github"
-            >
+              aria-label="Github">
               <Github className="w-6 h-6" />
             </a>
-            <a 
-              href="#" 
+            <a
+              href="https://www.linkedin.com/in/suraj-buddodi-a92272299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
               className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
-              aria-label="LinkedIn"
-            >
+              aria-label="LinkedIn">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
-              aria-label="Twitter"
-            >
+              aria-label="Twitter">
               <Twitter className="w-6 h-6" />
             </a>
-            <a 
-              href="mailto:your.email@example.com" 
+            <a
+              href="mailto:buddodisuraj@gmail.com"
               className="p-3 bg-slate-200 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-200 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
-              aria-label="Email"
-            >
+              aria-label="Email">
               <Mail className="w-6 h-6" />
             </a>
           </div>
-          
+
           <div className="w-full h-px bg-slate-200 dark:bg-slate-800 my-8"></div>
-          
+
           <div className="text-center text-slate-600 dark:text-slate-400">
             <p className="mb-2">Designed and built with ❤️</p>
-            <p>© {currentYear} Your Name. All rights reserved.</p>
+            <p>© {currentYear} Suraj Buddodi. All rights reserved.</p>
           </div>
         </div>
       </div>
